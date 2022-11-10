@@ -13,7 +13,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/mccutchen/go-httpbin/v2/httpbin"
+	"github.com/anuraaga/go-httpbin/v2/httpbin"
 )
 
 const (

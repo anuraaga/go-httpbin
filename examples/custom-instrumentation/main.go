@@ -7,7 +7,7 @@ import (
 
 	"github.com/DataDog/datadog-go/statsd"
 
-	"github.com/mccutchen/go-httpbin/v2/httpbin"
+	"github.com/anuraaga/go-httpbin/v2/httpbin"
 )
 
 func main() {

@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/DataDog/datadog-go v4.8.3+incompatible
-	github.com/mccutchen/go-httpbin/v2 v2.3.0
+	github.com/anuraaga/go-httpbin/v2 v2.3.0
 )
 
 require (

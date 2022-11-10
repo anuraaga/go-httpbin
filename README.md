@@ -3,8 +3,8 @@
 A reasonably complete and well-tested golang port of [Kenneth Reitz][kr]'s
 [httpbin][httpbin-org] service, with zero dependencies outside the go stdlib.
 
-[![GoDoc](https://pkg.go.dev/badge/github.com/mccutchen/go-httpbin/v2)](https://pkg.go.dev/github.com/mccutchen/go-httpbin/v2)
-[![Build status](https://github.com/mccutchen/go-httpbin/actions/workflows/test.yaml/badge.svg)](https://github.com/mccutchen/go-httpbin/actions/workflows/test.yaml)
+[![GoDoc](https://pkg.go.dev/badge/github.com/anuraaga/go-httpbin/v2)](https://pkg.go.dev/github.com/anuraaga/go-httpbin/v2)
+[![Build status](https://github.com/anuraaga/go-httpbin/actions/workflows/test.yaml/badge.svg)](https://github.com/anuraaga/go-httpbin/actions/workflows/test.yaml)
 [![Coverage](https://codecov.io/gh/mccutchen/go-httpbin/branch/main/graph/badge.svg)](https://codecov.io/gh/mccutchen/go-httpbin)
 [![Docker Pulls](https://badgen.net/docker/pulls/mccutchen/go-httpbin?icon=docker&label=pulls)](https://hub.docker.com/r/mccutchen/go-httpbin/)
 
@@ -62,7 +62,7 @@ $ docker run -e HTTPS_CERT_FILE='/tmp/server.crt' -e HTTPS_KEY_FILE='/tmp/server
 
 ### Unit testing helper library
 
-The `github.com/mccutchen/go-httpbin/httpbin/v2` package can also be used as a
+The `github.com/anuraaga/go-httpbin/httpbin/v2` package can also be used as a
 library for testing an application's interactions with an upstream HTTP
 service, like so:
 
@@ -76,7 +76,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mccutchen/go-httpbin/v2/httpbin"
+	"github.com/anuraaga/go-httpbin/v2/httpbin"
 )
 
 func TestSlowResponse(t *testing.T) {
@@ -112,13 +112,13 @@ that instruments every request using DataDog.
 To add go-httpbin to an existing golang project:
 
 ```
-go get -u github.com/mccutchen/go-httpbin/v2
+go get -u github.com/anuraaga/go-httpbin/v2
 ```
 
 To install the `go-httpbin` binary:
 
 ```
-go install github.com/mccutchen/go-httpbin/v2/cmd/go-httpbin
+go install github.com/anuraaga/go-httpbin/v2/cmd/go-httpbin
 ```
 
 
@@ -167,5 +167,5 @@ make imagepush
 [httpbin-repo]: https://github.com/kennethreitz/httpbin
 [ahmet]: https://github.com/ahmetb/go-httpbin
 [docker-hub]: https://hub.docker.com/r/mccutchen/go-httpbin/
-[observer]: https://pkg.go.dev/github.com/mccutchen/go-httpbin/v2/httpbin#Observer
+[observer]: https://pkg.go.dev/github.com/anuraaga/go-httpbin/v2/httpbin#Observer
 [custom-instrumentation]: ./examples/custom-instrumentation/

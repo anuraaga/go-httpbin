@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mccutchen/go-httpbin/v2/httpbin/digest"
+	"github.com/anuraaga/go-httpbin/v2/httpbin/digest"
 )
 
 var acceptedMediaTypes = []string{
