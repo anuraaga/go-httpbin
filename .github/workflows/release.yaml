@@ -36,7 +36,7 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            ghrc.io/mccutchen/go-httpbin
+            ghrc.io/${{ github.repository_owner }}/go-httpbin
 
       - name: Build and push
         uses: docker/build-push-action@v3
